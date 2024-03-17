@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist/output.css">
+  <title>Taailwind Site</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header class="border-b">
+      <nav class="flex flex-wrap gap-4 items-center justify-between rounded py-8 ">
+        <a class="font-bold text-2xl uppercase text-red-600 block py-2" href=""><i>Autogroup</i></a>
+
+        <ul class="font-semibold text-gray-500 flex gap-2 flex-wrap hidden lg:flex">
+          <li class="text-center"><a class="nav-link" href="">Головна</a></li>
+          <li class="text-center"><a class="nav-link" href="">Про нас</a></li>
+          <li class="text-center"><a class="nav-link" href="">Авто у продажу</a></li>
+          <li class="text-center"><a class="nav-link" href="">Послуги</a></li>
+          <li class="text-center"><a class="nav-link" href="">Контакти</a></li>
+          <li class="text-center"><a class="nav-link" href="">&#9990;+38 (050) 000-00-00</a></li>
+          <li class="text-center"><a class="nav-link" href=""> &#128205;Одеса</a></li>
+        </ul>
+
+        <button class="lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+
+      <section>
+        <div class="flex flex-wrap header-block">
+          <div class="w-full lg:w-1/2">
+            <h1 class="text-5xl text-gray-700 border-b mt-20 pb-7">Купити Авто в <i>Одесi</i></h1>
+            <p class="text-gray-500 font-semibold py-8">Автомобілі перевірені експертами. В наявності вже сьогодні у
+              нашому салоні.</p>
+            <a class="buttom mt-10" href="#">Замовити дзвінок</a>
+          </div>
+          <div class="w-full lg:w-1/2 mt-24 ">
+            <img src="assets/img/tesla.jpg" alt="tesla">
+          </div>
+        </div>
+      </section>
+
+      <!-- Catalog -->
+      <section class="mt-20">
+        <div class="mb-10">
+          <h2 class="text-4xl uppercase text-gray-800 font-bold border-b pb-4">Авто у наявності</h2>
+        </div>
+
+        <div class="catalog-list">
+          <div>
+            <a href="#">
+              <img class="catalog-img" src="assets/img/volvo.png" alt="auto">
+              <div>
+                <h4 class="catalog-item">Volvo XC90 2021 II покоління (FL)</h4>
+                <p>25 ТИС. КМ, ГІБРИД, 2 Л, АВТОМАТ</p>
+                <p class="catalog-price">56 500$</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img class="catalog-img" src="assets/img/byd.png" alt="auto">
+              <div>
+                <h4 class="catalog-item">BYD Song Plus Champion 2023</h4>
+                <p>1 ТИС. КМ, ЕЛЕКТРО, АВТОМАТ</p>
+                <p class="catalog-price">34 600$ <s>35 000$</s></p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img class="catalog-img" src="assets/img/cx5.png" alt="auto">
+              <div>
+                <h4 class="catalog-item">Mazda CX-9 2018 II покоління</h4>
+                <p>107 ТИС. КМ, БЕНЗИН, 2.49 Л, АВТОМАТ</p>
+                <p class="catalog-price">29 500$</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="catalog-list">
+          <div>
+            <a href="#">
+              <img class="catalog-img" src="assets/img/rover.png" alt="auto">
+              <div>
+                <h4 class="catalog-item">Land Rover Range Rover Sport 2014 IV покоління</h4>
+                <p>123 ТИС. КМ, ДИЗЕЛЬ, 2.99 Л, АВТОМАТ</p>
+                <p class="catalog-price">49 500$</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img class="catalog-img" src="assets/img/ford.png" alt="auto">
+              <div>
+                <h4 class="catalog-item">Ford Escape 2020 IV покоління</h4>
+                <p>33 ТИС. КМ, БЕНЗИН, 2 Л, АВТОМАТ</p>
+                <p class="catalog-price">23 500$</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img class="catalog-img" src="assets/img/tourag.png" alt="auto">
+              <div>
+                <h4 class="catalog-item">Volkswagen Tiguan 2019 II покоління</h4>
+                <p>112 ТИС. КМ, БЕНЗИН, 1.98 Л, АВТОМАТ</p>
+                <p class="catalog-price">22 300$</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="catalog-list">
+          <div>
+            <a href="#">
+              <img class="catalog-img" src="assets/img/santa.png" alt="auto">
+              <div>
+                <h4 class="catalog-item">Hyundai Santa FE 2016 III покоління (FL)</h4>
+                <p>132 ТИС. КМ, ДИЗЕЛЬ, 2.2 Л , АВТОМАТ</p>
+                <p class="catalog-price">18 900$</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img class="catalog-img" src="assets/img/focus.png" alt="auto">
+              <div>
+                <h4 class="catalog-item">Ford Focus 2018 III покоління (FL)</h4>
+                <p>98 ТИС. КМ, БЕНЗИН, 2 Л, АВТОМАТ</p>
+                <p class="catalog-price">10 200$</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img class="catalog-img" src="assets/img/mazda5.png" alt="auto">
+              <div>
+                <h4 class="catalog-item">Mazda 6 2006 I покоління/GG (FL)</h4>
+                <p>145 ТИС. КМ, БЕНЗИН, 2,3 Л, МЕХАНІКА</p>
+                <p class="catalog-price">5 500$</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="catalog-list">
+          <div>
+            <a href="#">
+              <img class="catalog-img" src="assets/img/caddy.png" alt="auto">
+              <div>
+                <h4 class="catalog-item">Volkswagen Caddy 2015 III покоління (2nd FL)</h4>
+                <p>205 ТИС. КМ, ГІБРИД, 2 Л, АВТОМАТ</p>
+                <p class="catalog-price">14 500$</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img class="catalog-img" src="assets/img/x5.png" alt="auto">
+              <div>
+                <h4 class="catalog-item">BMW X5 2018 F15</h4>
+                <p>82 ТИС. КМ, ДИЗЕЛЬ, 2.99Л, АВТОМАТ</p>
+                <p class="catalog-price">51 500$</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img class="catalog-img" src="assets/img/bmw.png" alt="auto">
+              <div>
+                <h4 class="catalog-item">BMW 4 Series 2013</h4>
+                <p>106 ТИС. КМ, БЕНЗИН, 2 Л, АВТОМАТ</p>
+                <p class="catalog-price">17 700$</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-10">
+        <div>
+          <h2 class="text-4xl text-gray-800 font-bold">КУПИТИ АВТОМОБІЛЬ В ОДЕСІ</h2>
+          <p class="text-gray-900 pt-4">Щоб купити авто в Одесі, можна самостійно перевіряти пропозиції на десятках
+            дошок оголошень та звертатися
+            до знайомих або одразу скористатися допомогою компанії « AUTOGROUP». У нас тільки справні та перевірені
+            авто.</p>
+        </div>
+        <div class="mt-6"><a class="text-gray-400 hover:underline hover:text-red-700"
+            href="https://cars.autogroup.ua/catalog?utm_source=google&utm_medium=cpc&utm-salon&utm_term=%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0%D0%BC%20%D0%B0%D0%B2%D1%82%D0%BE&gad_source=1&gclid=Cj0KCQjwhtWvBhD9ARIsAOP0Goi0hXzS8njwrJPSWoln969uH_XpCbZ0W4624XMN7TvxKalGYSqYdNwaAuQSEALw_wcB#accord">Читати
+            про переваги продажу машини через автовыкуп</a></div>
+      </section>
+
+      <!-- Заявка начало -->
+      <section class="py-10 mt-10 w-full bg-gray-100">
+        <div class="form container flex flex-wrap gap-5 justify-around ">
+          <div class="w-full md:w-2/3">
+            <h2 class="text-4xl text-gray-800 font-bold">Запишіться на консультацію</h2>
+            <p class="text-red-600 pt-4">Залишіть заявку і наш менеджер передзвонить вам найближчим часом.</p>
+            <p class="text-gray-900 pt-4">Ми вас проконсультуємо з апаратів, підбремо що потрібно саме вам! Також ви
+              зможете приїхати в нашу студію і особисто переконатися в якості та ефективності.</p>
+          </div>
+
+          <form class="w-full md:w-1/3 border rounded-lg shadow bg-gray-300 p-2" action="#" method="get">
+            <div class="mt-2">
+              <label class="text-white" for="name">Залиште ваш номер телефону</label>
+              <input class="border rounded w-full h-10 focus:outline-none pl-2" type="text" id="name"
+                placeholder="Ваше ім'я">
+            </div>
+
+            <div class="mt-1">
+              <label for="number"><small class="text-white">Формат: +38 (0__) ___-__-__</small></label>
+              <input class="border rounded w-full h-10 focus:outline-none pl-2" type="tel" id="number"
+                placeholder="Телефон" aria-describedby="Help">
+              <div id="Help" class="text-white text-sm">Ми ніколи нікому не передамо ваш телефонний номер.</div>
+            </div>
+
+            <button class="buttom mt-3" type="submit">Відправити</button>
+          </form>
+        </div>
+      </section>
+      <!-- Заявка конец -->
+    </main>
+  </div>
+
+  <div class="bg-gray-900">
+
+    <footer class="container pt-10 border-t">
+      <div class="flex flex-wrap gap-5 justify-around">
+        <div>
+          <h5 class="footer-item">ПЛАТФОРМА</h5>
+          <ul>
+            <li><a class="footer-link" href="">Головна сторінка</a></li>
+            <li><a class="footer-link" href="">Тарифи</a></li>
+            <li><a class="footer-link" href="">Список можливостей</a></li>
+            <li><a class="footer-link" href="">Блог</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer-item">ПІДТРИМКА</h5>
+          <ul>
+            <li><a class="footer-link" href="">Довідковий центр</a></li>
+            <li><a class="footer-link" href="">Питання</a></li>
+            <li><a class="footer-link" href="">Авто в кредит</a></li>
+            <li><a class="footer-link" href="">Автовикуп</a></li>
+            <li><a class="footer-link" href="">Поскаржитись</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer-item">ДОДАТКОВО</h5>
+          <ul>
+            <li><a class="footer-link" href="">Допомога у продажу</a></li>
+            <li><a class="footer-link" href="">Підбір авто</a></li>
+            <li><a class="footer-link" href="">консультації</a></li>
+            <li><a class="footer-link" href="">Додаткові послуги</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer-item">Майстерня</h5>
+          <ul>
+            <li><a class="footer-link" href="">Ремонт авто</a></li>
+            <li><a class="footer-link" href="">Покраска авто</a></li>
+            <li><a class="footer-link" href="">Розвал-сходження</a></li>
+            <li><a class="footer-link" href="">Шиномонтаж</a></li>
+            <li><a class="footer-link" href="">ПДР</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <p class="block py-7 text-center text-gray-400"> &#169; 2024 Jack. All Rights Reserved</p>
+      </div>
+
+    </footer>
+  </div>
+
+</body>
+
+</html>
